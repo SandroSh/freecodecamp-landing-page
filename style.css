@@ -1,0 +1,245 @@
+header{
+    width: 100%;
+background-color:rgba(206, 193, 19, 0.5);
+
+}
+
+.container{
+    max-width: 1319px;
+    
+    margin:0 auto;
+    
+}
+#nav-ul{
+     display: flex;
+     justify-content: space-evenly;
+    
+    
+}
+.header-li{
+                
+    margin-right: 100px;
+    font-family: fantasy;
+    
+    
+    font-size:1.7rem;
+    line-height:5rem;
+
+}
+a{  width: 40%;
+    color:black;
+}
+a:hover{
+    color: white;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#logo{
+  
+    width:80%; 
+}
+
+/*main title*/
+#main-title{
+    font-family:monospace;
+    font-size: 2rem;
+    margin: 27px 0  17px 0;
+}
+.main-title-and-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+/*only title input*/
+#main-input{
+    width:25%;
+    height:25px;
+}
+/*only title button*/
+#title-button{
+    background-color:rgba(206, 193, 19, 0.5);
+
+    margin-top:10px;
+    margin-bottom: 70px;
+    width:10%;
+    color:black;
+    font-size:50%;
+    font-family: fantasy;
+    
+}
+
+/* first info section///////////////////////////////////////////////////////////////*/
+
+
+.section-info-and-prieces{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:17px;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.section-images{
+   
+    width:10%;
+    height: 10%;
+    margin-right: 40px;
+    
+}
+
+.info-section-title{
+    
+    color:rgba(206, 193, 19, 0.5);
+    font-family: fantasy;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+.section-info-text{
+    font-size:1rem;
+    
+    font-family:cursive;
+    width:50%;
+    
+}
+
+
+/*Start of the second, video section//////////////////////////////////////////////////////*/
+
+
+
+
+/*Start of the third, prieces section/////////////////////////////////////////////////////*/
+.section-prieces{
+    margin:2%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+     
+}
+.prieces-box{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+    margin-right: 17px;
+    border:2px solid black;
+    border-radius:3px;
+}
+
+.prices-h1-box, .prices-and-information-box, .prices-box-p{
+    text-align: center;
+}
+
+.prices-h1-box{
+   width:100%;
+   line-height: 43px;
+   
+   font-size: 25px;
+   background-color:rgba(207, 193, 19, 0.5);
+   font-family:fantasy;
+   font-size:1rem;
+  
+}
+.prices-and-information-box button{
+        width:70%;
+        
+        background-color:rgba(207, 193, 19, 0.5);
+        margin-bottom: 14px;
+        font-family:fantasy;
+        font-size:17px;
+}
+.prices-box-p{
+   
+    
+    margin: 14px 34px 34px 34px;
+    font-family: cursive;
+    line-height: 29px;
+
+}
+.number-price{
+    margin-top:14px;
+    font-family: fantasy;
+    font-size:25px;
+
+}
+
+/*Start of the footer section///////////////////////////////////////////////////////////*/
+footer{
+    
+    margin-top:50px;
+    background-color:rgba(207, 193, 19, 0.5);
+}
+.footer-text-div{
+
+   
+    font-family: monospace;
+    font-size:1rem;
+    line-height: 2rem;
+
+    
+    
+}
+.footer-ul{
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer-li{
+    margin:7px 17px; 
+    
+    margin-right:17px;
+}
+#footer-image{
+    width:200px;
+ 
+}
+#footer-3li{
+
+    display:flex;
+}
+#footer-p{
+text-align:center;
+}
+@media (max-width:1047px){
+    #main-title{
+        font-size:1rem;
+        text-align: center;
+    }
+    .header-li{
+        display: none;
+    }
+    .container{
+        max-width:700px;
+    }
+    .section-images{
+        display: none;
+    
+    }
+    .section-info-text{
+       text-align: center;
+    }
+    #footer-image{
+        display: none;
+    }
+    #footer-3li{
+        margin:0 auto;
+    }
+    
+    input{
+        font-size:8.5px;
+    }
+}
