@@ -1,11 +1,11 @@
 header{
     width: 100%;
-background-color:rgba(206, 193, 19, 0.5);
+    background-color:rgba(206, 193, 19, 0.5);
 
 }
 
 .container{
-    max-width: 1319px;
+    max-width: 1343px;
     
     margin:0 auto;
     
@@ -39,7 +39,6 @@ a:hover{
    
 }
 #logo{
-  
     width:80%; 
 }
 
@@ -68,16 +67,20 @@ a:hover{
 
     margin-top:10px;
     margin-bottom: 70px;
-    width:10%;
+    
+    width:auto;
+    height:auto;
     color:black;
-    font-size:50%;
+    font-size:17px;
     font-family: fantasy;
     
 }
 
 /* first info section///////////////////////////////////////////////////////////////*/
 
-
+#info{
+    margin:50px 0 100px 0;
+}
 .section-info-and-prieces{
     width:90%;
     margin:0 auto;
@@ -116,12 +119,30 @@ img{
 
 
 /*Start of the second, video section//////////////////////////////////////////////////////*/
+#iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 55.25%;
+   margin-top:100px;
+    
+    height: 0;
 
+   
+  }
+  #iframe-container iframe{
+
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    
+  }
 
 
 
 /*Start of the third, prieces section/////////////////////////////////////////////////////*/
-.section-prieces{
+#section-prices{
     margin:2%;
     display: flex;
     
@@ -237,9 +258,27 @@ text-align:center;
     }
     #footer-3li{
         margin:0 auto;
+        font-size:17px;
     }
     
     input{
         font-size:8.5px;
+   
+    }
+    header{
+        height: 78px;
+        
+    }
+   
+    #title-button{
+        font-size:8.5px;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        
+        margin: 25px auto 0 auto;
+        
     }
 }
